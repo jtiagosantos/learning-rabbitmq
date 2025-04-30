@@ -1,0 +1,17 @@
+{
+  "name": "start",
+  "scripts": {
+    "start:producer": "tsx src/producer/index.ts",
+    "start:producer:loop": "tsx src/producer/loop.ts",
+    "start:consumer": "tsx src/consumer/index.ts"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.7"
+  }
+}
