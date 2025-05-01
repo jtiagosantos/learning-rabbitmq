@@ -1,0 +1,16 @@
+{
+  "name": "rpc-example",
+  "scripts": {
+    "start:client": "tsx src/rpc-client.ts",
+    "start:server": "tsx src/rpc-server.ts"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.7"
+  }
+}
